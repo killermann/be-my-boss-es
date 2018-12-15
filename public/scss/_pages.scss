@@ -1,0 +1,149 @@
+.page {
+    padding:8vw;
+}
+.page__title {
+    margin:4vw auto;
+    max-width:90%;
+    width:720px;
+    text-align:center;
+}
+.page__content {
+    max-width:90%;
+    width:720px;
+    margin:0 auto;
+}
+
+#intro {
+
+    @include mq('tablet-wide'){
+        display:flex;
+        flex-direction:column;
+
+        #trailer-wrap {
+            display:flex;
+            order:2;
+            align-items:flex-start;
+            justify-content: space-around;
+
+            .button {
+                display:inline-flex;
+                margin-top:6vw;
+                margin-left:2em;
+            }
+
+            #trailer {
+                width:720px;
+                max-width:60vw;
+                margin-right:6vw;
+                margin-bottom:4vw;
+                margin-left:2em;
+            }
+        }
+    }
+}
+
+
+    #blurb {
+        align-items: center;
+        position:relative;
+    }
+
+    #tagline {
+        position:relative;
+        z-index:2;
+
+        h2 {
+            max-width:75%;
+            margin-bottom:20vh;
+
+            @include mq('phone-wide'){
+                margin-bottom:2em;
+            }
+
+            @include mq('tablet-wide'){
+                max-width:22em;
+                margin-bottom:1em;
+            }
+        }
+    }
+
+    #be-my-bosses-dot-gif {
+        max-width:500px;
+        display:block;
+        border:calc(.5vw + 2px) solid white;
+        border-radius:4px;
+        height:auto;
+        width:25%;
+        box-shadow:2.5vw 2vw 10px -5px rgba(0,0,0,.3);
+        position:absolute;
+        z-index:0;
+        top:-20px;
+        right:5px;
+        transform:rotate(8deg);
+        transition: all .2s ease-out;
+
+        &:hover {
+            transform:scale(1.1);
+        }
+
+        @include mq('tablet-wide'){
+            top:3vw;
+            right:4vw;
+            width:30%;
+        }
+
+    }
+
+    #trailer-wrap {
+        z-index:10;
+
+        .button {
+            display:none;
+        }
+
+        .youtube {
+            border-radius:$borad $borad 0 0;
+        }
+
+        @include mq('tablet'){
+            padding:10px;
+            .youtube {
+                border-radius:6px;
+            }
+        }
+    }
+
+.grid {
+    h2, h3, h4 {
+        margin-top:0;
+        margin-bottom:.5em;
+    }
+
+    @include mq('tablet-wide') {
+        .image-cell {
+            img {
+                position:absolute;
+            }
+        }
+    }
+    
+    blockquote {
+        font-size:1.5em;
+    }
+
+}
+
+#skillz {
+    overflow:visible;
+
+    dl {
+        margin:.5em 0 0;
+    }
+    .meter {
+        margin:.2em 0 .5em;
+        display:block;
+        height:.5em;
+        border-radius:1em;
+        background-color:$blue;
+    }
+}
