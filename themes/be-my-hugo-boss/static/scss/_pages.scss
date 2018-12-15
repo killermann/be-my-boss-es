@@ -119,14 +119,10 @@
         margin-bottom:.5em;
     }
 
-    @include mq('tablet-wide') {
-        .image-cell {
-            img {
-                position:absolute;
-            }
-        }
+    .image-cell {
+        min-height:300px;
     }
-    
+
     blockquote {
         font-size:1.5em;
     }

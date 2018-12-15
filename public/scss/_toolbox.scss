@@ -59,10 +59,7 @@
                 right:-.1%;
             }
         }
-
-        &.image-cell .clipper {z-index:10;}
     }
-
 }
 
 /* Animations */
@@ -102,7 +99,6 @@ html.sr .scrlld {
 }
 
 /* Media */
-
 
 .youtube {
     overflow:hidden;
@@ -155,5 +151,38 @@ html.sr .scrlld {
             color:$indigo;
         }
     }
+}
 
+.instagram-link {
+    position:absolute;
+    text-indent:-999999px;
+    width:100%;
+    height:100%;
+    background-size:100% 0;
+    background-position:bottom;
+
+    &:hover {
+        background-size:100% 100%;
+        opacity:.8;
+
+        &:after {
+            bottom:50%;
+            width:50px;
+            height:50px;
+            margin-left:-25px;
+            margin-bottom:-25px;
+        }
+    }
+
+    &:after {
+        background-image:url('../img/icons/instagram.svg');
+        content:'';
+        width:20px;
+        height:20px;
+        position:absolute;
+        bottom:10px;
+        left:50%;
+        margin-left:-10px;
+        transition: all .2s ease-out;
+    }
 }
