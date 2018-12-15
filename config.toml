@@ -1,4 +1,4 @@
-baseURL = "https://www.bemyboss.es"
+baseURL = "https://bemybosses.netlify.com"
 languageCode = "en-us"
 title = "Be My Bosses"
 theme = "be-my-hugo-boss"
