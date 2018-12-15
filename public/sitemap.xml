@@ -3,33 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/why-not/</loc>
+    <loc>https://www.bemyboss.es/why-not/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://www.bemyboss.es/about/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/how/</loc>
+    <loc>https://www.bemyboss.es/how/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://www.bemyboss.es/</loc>
     <lastmod>2018-12-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://www.bemyboss.es/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://www.bemyboss.es/tags/</loc>
     <priority>0</priority>
   </url>
   
