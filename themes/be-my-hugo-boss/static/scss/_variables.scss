@@ -1,0 +1,34 @@
+/* CSS Variable Defaults */
+html {
+    --c-base: ; /* maps to $purple */
+    --c-bold: ; /* maps to $purple */
+    --c-bright: ; /* maps to $indigo */
+    --c-faint: ; /* maps to $blue */
+    --c-faint-2: ; /* maps to $seafoam */
+    --c-dark: ; /* maps to $dark-blue */
+    --c-text: ; /* maps to $dark-blue */
+    --c-text-invert: ; /* maps to $dark-blue */
+}
+
+
+/* SCSS Variableize the CSS Variables */
+
+$purple:                 var( --c-base, #AF6EE2); /* maps to base */
+$bold-purple:            var( --c-bold, #715BFF); /* bold */
+$indigo:                 var( --c-bright, #5887FF); /* bright */
+$blue:                   var( --c-faint, #0CCBFA); /* faint */
+$seafoam:                var( --c-faint-2, #84DCC6); /* faint-2 */
+$salmon:                 var( --c-faint-3, #EEB4B3); /* faint-2 */
+$dark-blue:              var( --c-dark, #102D4A); /* dark */
+$light-grey:             var( --c-neutral-light, #F4F4F4);
+$dark-grey:              var( --c-neutral-dark, #393E46);
+
+/* Typography Variables */
+
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+
+$theme-font:    'Arvo';
+
+/* Brand Variables */
+
+$borad:    1em;

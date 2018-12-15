@@ -1,0 +1,40 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Be My Bosses"
+theme = "be-my-hugo-boss"
+
+[author]
+    name = "Sam Killermann"
+
+[params]
+    description = "Employ Sam Killermann to Create for Global Justice"
+    keywords = "killermann, patreon, sam, sam killerman, sam killermann gender"
+    images = [""] # your site-wide thumbnail image used in Twitter card and opengraph
+
+[social] # to enable social links, add your account names
+    twitter = "Killermann"
+    facebook = "Killermann"
+    facebook_admin = "13727505" # enables facebook opengraph
+    linkedin = "Killermann"
+    instagram = "Killermann"
+    googleplus = ""
+    github = "Killermann"
+    gitlab = ""
+    pinterest = ""
+    tumblr = ""
+    vimeo = ""
+    youtube = ""
+
+# main menu
+[[menu.main]]
+    name = "How"
+    url = "/how/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3

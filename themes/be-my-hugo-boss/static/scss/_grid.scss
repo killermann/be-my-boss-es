@@ -1,0 +1,55 @@
+@include mq('tablet-wide') {
+
+    .grid {
+        display:grid;
+        align-content: start;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+    .g-col-start-1 { grid-column-start:1;}
+    .g-col-start-2 { grid-column-start:2;}
+    .g-col-start-3 { grid-column-start:3;}
+    .g-col-start-4 { grid-column-start:4;}
+
+    .g-col-end-1 { grid-column-end:1;}
+    .g-col-end-2 { grid-column-end:2;}
+    .g-col-end-3 { grid-column-end:3;}
+    .g-col-end-4 { grid-column-end:4;}
+    .g-col-end-5 { grid-column-end:5;}
+
+    .g-row-start-1 { grid-row-start:1;}
+    .g-row-start-2 { grid-row-start:2;}
+    .g-row-start-3 { grid-row-start:3;}
+    .g-row-start-4 { grid-row-start:4;}
+
+    .g-row-end-1 { grid-row-end:1;}
+    .g-row-end-2 { grid-row-end:2;}
+    .g-row-end-3 { grid-row-end:3;}
+    .g-row-end-4 { grid-row-end:4;}
+    .g-row-end-5 { grid-row-end:5;}
+
+
+.flex {
+    display:flex;
+
+    .cell {
+    }
+}
+
+    .flex-col {
+        flex-direction:column;
+    }
+
+    .flex-row {
+        flex-direction:row;
+    }
+
+.center-everthing {
+    justify-content: center;
+    align-items:center;
+}
