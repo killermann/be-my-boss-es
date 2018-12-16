@@ -1,16 +1,18 @@
 .page {
-    padding:8vw;
+    padding:4vw 20px;
 }
 .page__title {
     margin:4vw auto;
-    max-width:90%;
-    width:720px;
+    max-width:720px;
     text-align:center;
+
+    h1 {
+        margin:6vw auto;
+    }
 }
 .page__content {
-    max-width:90%;
-    width:720px;
-    margin:0 auto;
+    max-width:720px;
+    margin:40px auto;
 }
 
 #intro {
@@ -121,10 +123,17 @@
 
     .image-cell {
         min-height:300px;
+        background-size:cover;
     }
 
     blockquote {
         font-size:1.5em;
+    }
+
+    .clip.pad, .clip.bigpad {
+        padding-top:40px;
+        padding-bottom:40px;
+
     }
 
 }
@@ -141,5 +150,22 @@
         height:.5em;
         border-radius:1em;
         background-color:$blue;
+    }
+
+    @include mq('tablet-wide') {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#take-credit {
+    padding:40px 20px;
+    margin-top:-20px;
+    margin-bottom:-20px;
+
+    @include mq('tablet-wide') {
+        margin:0;
+        padding:20px;
     }
 }

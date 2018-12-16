@@ -2,33 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Be My Bosses</title>
-    <link>https://bemybosses.netlify.com/</link>
+    <link>https://bemyboss.es/</link>
     <description>Recent content on Be My Bosses</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bemybosses.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bemyboss.es/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>7 Reasons to NOT Employ Me</title>
-      <link>https://bemybosses.netlify.com/why-not/</link>
-      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bemybosses.netlify.com/why-not/</guid>
-      <description>This isn&amp;rsquo;t for everyone. Actually, it&amp;rsquo;s not for most people, even most people who follow or believe in my work. And I don&amp;rsquo;t want any of you beautiful humans reading this to get the wrong idea.
-Following are several compelling reasons you should not, under any circumstance, be my boss.
-In all sincerity, and with kindness and compassion, please don&amp;rsquo;t be my boss if&amp;hellip;
- The dollars will make it difficult for you to make ends meet.</description>
-    </item>
     
     <item>
       <title>About</title>
-      <link>https://bemybosses.netlify.com/about/</link>
+      <link>https://bemyboss.es/about/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bemybosses.netlify.com/about/</guid>
+      <guid>https://bemyboss.es/about/</guid>
       <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:
  https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
@@ -36,10 +24,10 @@ It makes use of a variety of open source projects including:
     
     <item>
       <title>How</title>
-      <link>https://bemybosses.netlify.com/how/</link>
+      <link>https://bemyboss.es/how/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://bemybosses.netlify.com/how/</guid>
+      <guid>https://bemyboss.es/how/</guid>
       <description>Do you care about the work I’m doing? Be my boss and you’ll be directly involved in — and responsible for — everything I create, publish, or send out into the world. And it works like any employee/employer relationship:
  Pay me a monthly salary. You choose the amount ($1 per month minimum), based on what you think my work is worth, what’s in the budget, or how much you want to give.</description>
     </item>
