@@ -149,7 +149,7 @@
 }
 
 #skillz {
-    overflow:hidden;
+    overflow:visible;
 
     dl {
         margin:.5em 0 0;
@@ -160,6 +160,14 @@
         height:.5em;
         border-radius:1em;
         background-color:$blue;
+
+        &.superwide {
+            width:calc(100% + 25px);
+
+            @include mq('tablet-wide'){
+                width:calc(100% + 6vw);
+            }
+        }
     }
 
     @include mq('tablet-wide') {
