@@ -1,12 +1,8 @@
-@@ -1,19 +1,35 @@
 +++
 title = "7 Reasons NOT to Be My Boss"
-title = "7 Reasons to NOT Employ Me"
 date = "2018-12-14"
 +++
 
-<p class="lede"><span class="dropcap seafoam">T</span>his arrangement isn't for everyone. Actually, it's not for most people, even most people who follow my work. Here are several compelling reasons you should not, under any circumstance, be my boss.</p>
-<p>In all sincerity, and with kindness and compassion, do not be my boss if...</p>
 <p class="lede"><span class="dropcap seafoam">T</span>his isn't for everyone. Actually, it's not for most people, even most people who follow or believe in my work. And I don't want any of you beautiful humans reading this to get the wrong idea.
 
 Following are several compelling reasons you should not, under any circumstance, be my boss.
@@ -33,7 +29,7 @@ In all sincerity, and with kindness and compassion, please <strong>don't be my b
     </li>
     <li><strong>Ambiguity makes you uncomfortable.</strong><br/>
         This is a new experiment, and I'm not entirely sure how it'll go. We'll be figuring it out together. That's really exciting! If you disagree, well, uh, I have a <a href="https://app.convertkit.com/landing_pages/402557?v=7" title="Sam Killermann Mailing List">mailing list</a>.
-    </li>	
+    </li>
 </ol>
 
 Applied more broadly, you could take these as provisos for not employing (or becoming the patron of) any stranger on the internet, but I'll let you sort that out with them.
