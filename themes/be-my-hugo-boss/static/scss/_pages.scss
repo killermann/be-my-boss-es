@@ -139,7 +139,7 @@
 }
 
 #skillz {
-    overflow:visible;
+    overflow:hidden;
 
     dl {
         margin:.5em 0 0;
@@ -156,6 +156,7 @@
         display:flex;
         justify-content: center;
         align-items: center;
+        overflow:visible;
     }
 }
 
@@ -167,5 +168,6 @@
     @include mq('tablet-wide') {
         margin:0;
         padding:20px;
+
     }
 }
