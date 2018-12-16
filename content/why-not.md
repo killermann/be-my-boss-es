@@ -10,8 +10,6 @@ Following are several compelling reasons you should not, under any circumstance,
 In all sincerity, and with kindness and compassion, please <strong>don't be my boss if...</strong>
 
 <ol>
-    <li><strong>The dollars you spend employing me will make it difficult for you to make ends meet.</strong> <br/>
-        Don't financially stretch yourself to pay me. Please. This will make me incredibly sad, which is likely the opposite of what you're trying to accomplish.
     <li><strong>The dollars will make it difficult for you to make ends meet.</strong> <br/>
         Don't financially stretch yourself to pay me me to work. Please. This will make me incredibly sad, which is likely the opposite of what you're trying to accomplish. If you have to think twice about what you're choosing to pay me, I implore you to either pay me less, or don't do it at all.
     </li>
