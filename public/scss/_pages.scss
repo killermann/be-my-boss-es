@@ -203,14 +203,13 @@
     }
 }
 
-@include mq('tablet-wide') {
-    #faq {
-        padding-left:4vw;
-    }
-}
-.faq {
+#faq {
     h3 {
         font-weight:700;
         margin:2em auto 0;
+    }
+
+    @include mq('tablet-wide') {
+        padding-left:4vw;
     }
 }
