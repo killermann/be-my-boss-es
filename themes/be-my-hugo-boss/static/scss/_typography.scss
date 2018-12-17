@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ul, ol {
     margin:1.5em auto;
+    padding:0 0 0 1.5em;
 
     li + li {
         margin-top:1.2em;
@@ -58,6 +59,8 @@ ol {
 
 blockquote, cite {
     font-family: $theme-font;
+    margin-left:0;
+    margin-right:0;
 }
     blockquote {
         font-weight:700;

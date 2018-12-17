@@ -159,6 +159,12 @@
         }
     }
 
+    h2, h3, h4, h5, h6, p, ul, ol {
+        max-width:560px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
 }
 
 #skillz {
@@ -203,11 +209,14 @@
     }
 }
 
-#faq {
+.faq{
     h3 {
         font-weight:700;
         margin:2em auto 0;
     }
+}
+
+#faq {
 
     @include mq('tablet-wide') {
         padding-left:4vw;
