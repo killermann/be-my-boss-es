@@ -146,6 +146,19 @@
 
     }
 
+    .floaty-svg {
+        display:none;
+        @include mq('tablet-wide'){
+            position:absolute;
+            display:block;
+            height:auto;
+            transform:rotate(-35deg);
+            height:50%;
+            left:45%;
+            filter:drop-shadow(1em 2em 4px rgba(0,0,0,.1));
+        }
+    }
+
 }
 
 #skillz {
@@ -187,5 +200,17 @@
         margin:0;
         padding:20px;
 
+    }
+}
+
+@include mq('tablet-wide') {
+    #faq {
+        padding-left:4vw;
+    }
+}
+.faq {
+    h3 {
+        font-weight:700;
+        margin:2em auto 0;
     }
 }

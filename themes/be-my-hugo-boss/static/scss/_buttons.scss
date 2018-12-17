@@ -85,6 +85,8 @@ a, a:visited {
     &.button-purple:after { background-color: $purple; }
     &.button-salmon:after { background-color: $salmon; }
     &.button-indigo:after { background-color: $indigo; }
+    &.button-dark-blue:after { background-color: $dark-blue; }
+    &.button-bold-purple:after { background-color: $bold-purple; }
 
     /* Button Icons */
 
@@ -105,6 +107,16 @@ a, a:visited {
         background-image:url(../img/icons/file-download-light.svg);
     }
 
+    &.icon-briefcase:before {
+        content:'';
+        background-image:url(../img/icons/briefcase-light.svg);
+    }
+
+    &.icon-twitter:before {
+        content:'';
+        background-image:url(../img/icons/twitter-brands.svg);
+    }
+
     /* Button Animation */
 
     &:hover, &:focus {
@@ -121,10 +133,6 @@ a, a:visited {
             left:0;
             opacity:1;
             border-radius:3em;
-        }
-
-        &:before {
-            filter: drop-shadow(0px 0px 20px rgba(0,0,0,.8));
         }
     }
 
