@@ -140,10 +140,14 @@
         }
     }
 
-    .clip.pad, .clip.bigpad {
-        padding-top:40px;
-        padding-bottom:40px;
+    .clip.pad {
+        padding-top:6vh;
+        padding-bottom:6vh;
 
+        @include mq('tablet-wide') {
+            padding-top:30px;
+            padding-bottom:30px;
+        }
     }
 
     .floaty-svg {
@@ -170,14 +174,22 @@
 #skillz {
     overflow:visible;
 
+    h2 {
+        text-align:center;
+
+        @include mq('tablet-wide'){
+            text-align:left;
+        }
+    }
+
     dl {
         margin:.5em 0 0;
     }
     .meter {
         margin:.2em 0 .5em;
         display:block;
-        height:.5em;
-        border-radius:1em;
+        height:5px;
+        border-radius:5px;
         background-color:$blue;
 
         &.superwide {
@@ -194,6 +206,12 @@
         justify-content: center;
         align-items: center;
         overflow:visible;
+
+        dt {
+            font-size:14px;
+            line-height:1;
+            margin-bottom:4px;
+        }
     }
 }
 

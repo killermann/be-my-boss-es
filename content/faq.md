@@ -18,9 +18,6 @@ date = "2018-12-14"
 	<h3>How much does it cost?</h3>
 	<p>You choose my salary. My ask is that base it on what feels right for <em>you</em>, based on your financial ability, sense of gratitude or fairness, or whatever else moves you.</p>
 	<p>There's no minimum (beyond the $1 threshold, which Patreon sets) no maximum, and you're welcome to adjust what you pay every month.</p>
-	<h3>Is this legal?</h3>
-	<p>I assume so. Granted, technically speaking, in a legal sense, you aren't my "boss" &mdash; so you're not on the hook for things like healthcare (don't have it) or worker's comp (hope I don't need it).</p>
-	<p>Also, technically speaking, my lawyer is <a href="https://www.instagram.com/p/BkgEtu2no8W/" title="Chewie">a puppy</a>. So I'll hand this one <a href="https://www.patreon.com/legal" title="Patreon Legl">over to Patreon</a>.</p>
 	<h3>Is the color scheme of this site based on a pair of socks and a scarf you own?</h3>
 	<p>Yeppppppppp.</p>
 </section>
@@ -31,4 +28,7 @@ date = "2018-12-14"
 	<li>**Participate in Quarterly Reviews**: every three months you'll get the chance to review my performance, and I'll do a Q&A with my bosses.</li>
 	<li>**Insider perspective**: get a full view behind the scenes of everything that goes into the things I make, publish, and do.</li>
 	</ol>
+	<h3>Is this legal?</h3>
+	<p>I assume so. Granted, technically speaking, in a legal sense, you aren't my "boss" &mdash; so you're not on the hook for things like healthcare (don't have it) or worker's comp (hope I don't need it).</p>
+	<p>Also, since we are speaking technically, my lawyer is <a href="https://www.instagram.com/p/BkgEtu2no8W/" title="Chewie">a puppy</a>. So I'll hand this one <a href="https://www.patreon.com/legal" title="Patreon Legl">over to Patreon</a>.</p>
 </section>
