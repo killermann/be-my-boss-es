@@ -1,3 +1,4 @@
+
 .page {
     padding:4vw 20px;
 }
@@ -185,6 +186,7 @@
     dl {
         margin:.5em 0 0;
     }
+
     .meter {
         margin:.2em 0 .5em;
         display:block;
@@ -212,6 +214,18 @@
             line-height:1;
             margin-bottom:4px;
         }
+    }
+
+    @include mq('desktop') {
+        dl {
+            width:100%;
+        }
+        dt {
+            font-size:1rem;
+            margin-top:1rem;
+            margin-bottom:.3rem;
+        }
+
     }
 }
 
