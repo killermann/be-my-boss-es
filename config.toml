@@ -1,6 +1,6 @@
 baseURL = "https://bemyboss.es"
 languageCode = "en-us"
-title = "Be My Bosses"
+title = "Be My Boss(es)"
 theme = "be-my-hugo-boss"
 
 [author]
