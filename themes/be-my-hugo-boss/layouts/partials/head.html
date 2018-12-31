@@ -17,6 +17,8 @@
 
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}
+<meta property="og:image" content="https://bemyboss.es/img/be-my-bosses-social-card.png">
+<meta property="article:author" content="https://facebook.com/killermann">
 
 <base href="{{ .Site.BaseURL }}">
 
@@ -27,6 +29,7 @@
 <link rel="icon" type="image/png" href="{{ "/img/favicon-32x32.png" | absURL }}" sizes="32x32">
 <link rel="icon" type="image/png" href="{{ "/img/favicon-16x16.png" | absURL }}" sizes="16x16">
 <link rel="apple-touch-icon" href="{{ "/img/apple-touch-icon.png" | absURL }}" sizes="180x180">
+
 
 {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
