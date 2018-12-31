@@ -8,8 +8,8 @@ theme = "be-my-hugo-boss"
 
 [params]
     description = "Employ Sam Killermann to Create for Global Justice"
-    keywords = "killermann, patreon, sam, sam killerman, sam killermann gender"
-    images = [""] # your site-wide thumbnail image used in Twitter card and opengraph
+    keywords = "sam killermann, killermann, patreon, sam, sam killerman, sam killermann gender"
+    images = ["https://bemyboss.es/img/be-my-bosses-social-card.png"] # your site-wide thumbnail image used in Twitter card and opengraph
 
 [social] # to enable social links, add your account names
     twitter = "Killermann"
@@ -23,7 +23,7 @@ theme = "be-my-hugo-boss"
     pinterest = ""
     tumblr = ""
     vimeo = ""
-    youtube = ""
+    youtube = "https://www.youtube.com/channel/UCCTopJtJbwx8Xol4BiX11zg"
 
 # main menu
 [[menu.main]]
